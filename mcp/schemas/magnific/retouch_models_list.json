@@ -1,0 +1,1 @@
+{"name":"retouch_models_list","description":"Retouch (inpaint / erase) model catalog, lean, with the modes each model runs (`retouchModes`). Pass one as `images_retouch.model`; omit it for Auto. `search` filters by name, slug, family, description, or tags.","parameters":{"properties":{"search":{"description":"Case-insensitive.","type":"string"}},"type":"object"}}

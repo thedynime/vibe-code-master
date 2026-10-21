@@ -1,0 +1,1 @@
+{"name":"get_profile","description":"Read the caller's own 21st.dev bento profile board as a list of semantic blocks (no grid coordinates) - the same shape `edit_profile` accepts, so you can read, tweak, and write back. FREE, read-only.","parameters":{"type":"object"}}

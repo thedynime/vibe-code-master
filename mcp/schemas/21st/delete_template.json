@@ -1,0 +1,1 @@
+{"name":"delete_template","description":"Permanently delete a template YOU published to 21st.dev. Owner-only. Unlike components/themes, this is a HARD delete - the listing row is removed and cannot be recovered.","parameters":{"properties":{"id":{"description":"The template id.","type":"number"}},"required":["id"],"type":"object"}}

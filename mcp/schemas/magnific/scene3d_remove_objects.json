@@ -1,0 +1,1 @@
+{"name":"scene3d_remove_objects","description":"Delete scene objects by id. Idempotent — missing ids are silently skipped and reported. @see guides_get('scene3d')","parameters":{"properties":{"objectIds":{"items":{"type":"string"},"type":"array"},"worldId":{"type":"string"}},"required":["worldId","objectIds"],"type":"object"}}

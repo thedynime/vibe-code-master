@@ -1,0 +1,1 @@
+{"name":"withdraw_component","description":"Withdraw a component that is currently In review. It stays Published.","parameters":{"properties":{"slug":{"description":"The component's slug.","type":"string"}},"required":["slug"],"type":"object"}}

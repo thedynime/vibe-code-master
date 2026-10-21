@@ -1,0 +1,1 @@
+{"name":"spaces_share_get","description":"Who can open a Space: owner, public flag and each invited member with view|edit. Space-level invites only; project access (org/groups/roles) → projects_shares_get on its projectReference.","parameters":{"properties":{"spaceId":{"description":"Space `id` UUID from spaces_list.","type":"string"}},"required":["spaceId"],"type":"object"}}

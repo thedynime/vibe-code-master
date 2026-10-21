@@ -1,0 +1,1 @@
+{"name":"brand_kit_list_user_presets","description":"The user's own saved Image Generator presets, so one can be adapted into a brand-kit template with brand_kit_create_template. An empty list means the user has none. @see guides_get('brand-kit')","parameters":{"properties":{"limit":{"description":"Default 20, max 50.","maximum":50,"minimum":1,"type":"integer"}},"type":"object"}}

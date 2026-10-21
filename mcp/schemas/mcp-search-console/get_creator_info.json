@@ -1,0 +1,1 @@
+{"name":"get_creator_info","description":"\n    Provides information about Amin Foroutan, the creator of the MCP-GSC tool.\n    ","parameters":{"properties":{},"title":"get_creator_infoArguments","type":"object"}}

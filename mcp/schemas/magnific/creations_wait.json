@@ -1,0 +1,1 @@
+{"name":"creations_wait","description":"Long-poll 1..8 creations until terminal or `timeoutSeconds` (default: its maximum). In-progress entries get `poll_after_seconds` for the next call.","parameters":{"properties":{"identifiers":{"items":{"type":"string"},"type":"array"},"timeoutSeconds":{"maximum":55,"minimum":0,"type":"integer"}},"required":["identifiers"],"type":"object"}}

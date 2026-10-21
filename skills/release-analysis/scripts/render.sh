@@ -1,0 +1,1 @@
+/Users/jitkumarsaha/.gemini/config/skills/.repos/claude-cortex/skills/architectural-analysis/scripts/render.sh

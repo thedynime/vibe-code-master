@@ -1,0 +1,1 @@
+{"name":"scene3d_create_scene","description":"Creates a new empty scene record in the world. The live room/viewer keeps the current scene; the user must open the new one in the UI to edit it. You cannot switch scenes. @see guides_get('scene3d')","parameters":{"properties":{"worldId":{"type":"string"}},"required":["worldId"],"type":"object"}}

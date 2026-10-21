@@ -1,0 +1,1 @@
+{"name":"flows_share","description":"Share your own flow by link and publish the creations it uses, so anyone with `webUrl` can open it. Owner only. A public flow stays public. Returns `visibility` and `webUrl`.","parameters":{"properties":{"identifier":{"description":"From flows_list/flows_show.","type":"string"}},"required":["identifier"],"type":"object"}}

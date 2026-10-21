@@ -1,0 +1,1 @@
+{"name":"video_upscale_models_list","description":"Video upscale mode catalog (topaz, magnific, magnific_precision) with required/optional params, ranges and enums. Read before calling `video_upscale`. Not HDR — use `video_hdr`.","parameters":{"properties":{},"type":"object"}}

@@ -1,0 +1,1 @@
+{"name":"folders_show","description":"Inline project/folder picker. Call when the user should choose a destination, or asks to pick a project. Wait for folderReference. Do not call before every generation. Textual list: folders_list.","parameters":{"properties":{},"type":"object"}}

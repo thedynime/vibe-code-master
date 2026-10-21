@@ -1,0 +1,1 @@
+{"name":"submit_component","description":"Submit a Published component for catalog review. This does not change who can access it.","parameters":{"properties":{"slug":{"description":"The component's slug.","type":"string"}},"required":["slug"],"type":"object"}}

@@ -1,0 +1,1 @@
+{"name":"guides_list","description":"Domain guides for Magnific surfaces: name, title, description. Read one with `guides_get` before working on that surface.","parameters":{"properties":{},"type":"object"}}

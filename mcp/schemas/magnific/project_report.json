@@ -1,0 +1,1 @@
+{"name":"project_report","description":"English markdown status report for a project/folder. Last 7 days default, max 30.","parameters":{"properties":{"days":{"description":"1-30; default 7.","type":"integer"},"reference":{"description":"Project/folder reference from `folders_list` or `folders_get`.","type":"string"}},"required":["reference"],"type":"object"}}

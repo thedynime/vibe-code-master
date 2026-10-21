@@ -1,0 +1,1 @@
+{"name":"get_theme","description":"Retrieve a 21st.dev theme's full CSS (the :root / .dark tokens ready to drop into a Tailwind/shadcn app), plus its name and page url. Pass the `id` from a search result with type 'theme'. Free.","parameters":{"properties":{"id":{"description":"The theme `id` (uuid) from a search result.","type":"string"}},"required":["id"],"type":"object"}}

@@ -1,0 +1,1 @@
+{"name":"reauthenticate","description":"\n    Perform a logout and new login sequence.\n    Deletes the current OAuth token file and triggers the browser authentication flow.\n    Useful when you need to switch to a different Google account.\n    ","parameters":{"properties":{},"title":"reauthenticateArguments","type":"object"}}

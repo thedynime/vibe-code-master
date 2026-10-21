@@ -1,0 +1,1 @@
+{"name":"projects_archive","description":"Archive a project for its whole team: read-only for every role, owner included, until projects_unarchive. Owner/Admin only.","parameters":{"properties":{"reference":{"description":"Project reference from folders_list (`onlyProjects: true`).","type":"string"}},"required":["reference"],"type":"object"}}

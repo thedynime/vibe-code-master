@@ -1,0 +1,1 @@
+{"name":"video_export_status","description":"Get the authorized project's exports and progress. Ready jobs include a short-lived MP4 download URL.","parameters":{"properties":{"projectId":{"format":"uuid","type":"string"}},"required":["projectId"],"type":"object"}}

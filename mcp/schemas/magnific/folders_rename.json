@@ -1,0 +1,1 @@
+{"name":"folders_rename","description":"Rename a folder by `reference`.","parameters":{"properties":{"name":{"type":"string"},"reference":{"description":"Folder reference.","type":"string"}},"required":["reference","name"],"type":"object"}}

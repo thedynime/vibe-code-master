@@ -1,0 +1,1 @@
+{"name":"create_bookmark_list","description":"Create a new personal named bookmark list on the signed-in account.","parameters":{"properties":{"name":{"description":"The list name.","type":"string"}},"required":["name"],"type":"object"}}

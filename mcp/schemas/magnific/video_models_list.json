@@ -1,0 +1,1 @@
+{"name":"video_models_list","description":"Video-gen model catalog, lean. `search` filters by name, slug, description, or tags.","parameters":{"properties":{"onlyRecommended":{"description":"When true, returns only models with an `agentRecommendation`.","type":"boolean"},"search":{"description":"Case-insensitive.","type":"string"}},"type":"object"}}

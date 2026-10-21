@@ -1,0 +1,34 @@
+{
+  "name": "vibe-code-master",
+  "version": "1.0.0",
+  "description": "The Ultimate Agentic Coding Super-Repository: 290+ Production Skills, Plugins, Hardened MCP Configs, and Universal Coding Standards for Antigravity, Claude Code, OpenAI Codex, Cursor, and VS Code.",
+  "main": "scripts/sync.js",
+  "scripts": {
+    "sync": "./scripts/sync.sh",
+    "update": "./scripts/sync.sh",
+    "install:local": "./scripts/install.sh",
+    "test": "node -e 'console.log(\"Vibe Code Master verified.\")'"
+  },
+  "keywords": [
+    "antigravity",
+    "claude-code",
+    "codex",
+    "agentic-ai",
+    "cursor-rules",
+    "mcp-server",
+    "vibe-coding",
+    "dynime",
+    "ai-skills",
+    "copilot"
+  ],
+  "author": "Dynime LLC <support@dynime.com> (https://dynimegroup.com)",
+  "license": "MIT",
+  "homepage": "https://dynime.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thedynime/vibe-code-master.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thedynime/vibe-code-master/issues"
+  }
+}

@@ -1,0 +1,1 @@
+{"name":"remove_component_from_catalog","description":"Remove a Featured component from the catalog while keeping it Published on its profile and direct URL.","parameters":{"properties":{"slug":{"description":"The component's slug.","type":"string"}},"required":["slug"],"type":"object"}}

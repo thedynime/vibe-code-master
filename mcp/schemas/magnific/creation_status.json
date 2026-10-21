@@ -1,0 +1,1 @@
+{"name":"creation_status","description":"Snapshot creation status. In-progress: `poll_after_seconds`. Used by the inline widget. Wait: `creations_wait`. Browse: `creations_get`.","parameters":{"properties":{"creationIdentifier":{"type":"string"}},"required":["creationIdentifier"],"type":"object"}}

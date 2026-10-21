@@ -1,0 +1,1 @@
+{"name":"list_teams","description":"List the teams (workspaces) the signed-in user belongs to, each with how many libraries and shared lists it has. A team is a container; drill into one with list_team_libraries / list_team_lists using its teamId. Free.","parameters":{"type":"object"}}

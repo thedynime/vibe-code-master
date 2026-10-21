@@ -1,0 +1,1 @@
+{"name":"video_vfx_list","description":"Catalog of video effects: numeric `id`, `name` and the `parameters` each one accepts. Read before `video_vfx`. Free, no credits.","parameters":{"properties":{},"type":"object"}}

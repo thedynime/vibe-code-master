@@ -1,0 +1,1 @@
+{"name":"projects_unarchive","description":"Unarchive a project so its team can write and generate in it again. Owner/Admin only.","parameters":{"properties":{"reference":{"description":"Project reference from folders_list (`onlyProjects: true`).","type":"string"}},"required":["reference"],"type":"object"}}

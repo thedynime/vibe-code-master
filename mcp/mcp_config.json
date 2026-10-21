@@ -1,0 +1,58 @@
+{
+    "mcpServers": {
+        "novamira-globalstudysolut": {
+            "serverUrl": "https://globalstudysolution.uk/wp-json/mcp/novamira-oauth"
+        },
+        "openseo": {
+            "serverUrl": "https://app.openseo.so/mcp"
+        },
+        "resend": {
+            "serverUrl": "https://mcp.resend.com/mcp",
+            "headers": {
+                "Authorization": "Bearer ${RESEND_API_KEY}"
+            }
+        },
+        "geo-optimizer": {
+            "command": "geo-mcp"
+        },
+        "mcp-search-console": {
+            "command": "uvx",
+            "args": [
+                "mcp-search-console"
+            ],
+            "env": {
+                "GSC_CREDENTIALS_PATH": "",
+                "GSC_OAUTH_CLIENT_SECRETS_FILE": "",
+                "GSC_DATA_STATE": "all"
+            }
+        },
+        "magnific": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "mcp-remote",
+                "https://mcp.magnific.com"
+            ]
+        },
+        "motion": {
+            "serverUrl": "https://mcp.motion.dev"
+        },
+        "motion-plus": {
+            "serverUrl": "https://mcp.motion.dev/plus"
+        },
+        "hostinger": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@hostinger/mcp"
+            ]
+        },
+        "21st": {
+            "url": "https://21st.dev/api/mcp",
+            "serverUrl": "https://21st.dev/api/mcp",
+            "headers": {
+                "x-api-key": "${API_KEY_21ST}"
+            }
+        }
+    }
+}

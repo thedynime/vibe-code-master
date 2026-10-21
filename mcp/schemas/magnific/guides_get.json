@@ -1,0 +1,1 @@
+{"name":"guides_get","description":"Markdown domain guide for one Magnific surface (e.g. `scene3d` for 3D Scenes). Read it before building or editing on that surface; names from `guides_list`.","parameters":{"properties":{"name":{"description":"Guide name, e.g. `scene3d`.","maxLength":64,"pattern":"^[a-z0-9][a-z0-9_-]*$","type":"string"}},"required":["name"],"type":"object"}}

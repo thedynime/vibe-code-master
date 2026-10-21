@@ -1,0 +1,1 @@
+{"name":"spaces_create_page","description":"Creates a page in the active Space and returns its pageId. @see guides_get('spaces')","parameters":{"properties":{"name":{"description":"Defaults to the next \"Page N\".","type":"string"},"spaceId":{"description":"Space UUID.","type":"string"},"type":{"description":"canvas (default) | story-studio.","type":"string"}},"type":"object"}}

@@ -1,0 +1,1 @@
+{"name":"resubmit_component","description":"Resubmit a Published component after requested changes. It returns to In review.","parameters":{"properties":{"slug":{"description":"The component's slug.","type":"string"}},"required":["slug"],"type":"object"}}

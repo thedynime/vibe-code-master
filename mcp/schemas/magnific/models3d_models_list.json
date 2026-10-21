@@ -1,0 +1,1 @@
+{"name":"models3d_models_list","description":"3D engine catalog for `models3d_generate`: id, provider, inputs, textures, resolutions, faceLimit. Engines the account's organisation turned off are listed apart.","parameters":{"properties":{},"type":"object"}}

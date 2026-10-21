@@ -1,0 +1,1 @@
+{"name":"brand_kit_list_rules","description":"Lean persisted hard-ban corrections for semantic comparison before brand_kit_add_rule. Owner only. @see guides_get('brand-kit')","parameters":{"properties":{"id":{"description":"Owned Brand Kit sqid.","type":"string"}},"required":["id"],"type":"object"}}

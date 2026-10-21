@@ -1,0 +1,1 @@
+{"name":"brand_kit_duplicate","description":"App-only: copies a brand kit the user can read into a private kit of their own for an open Magnific app. Never call from chat. @see guides_get('brand-kit')","parameters":{"properties":{"id":{"description":"Brand kit id.","type":"string"}},"required":["id"],"type":"object"}}

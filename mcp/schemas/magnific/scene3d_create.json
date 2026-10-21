@@ -1,0 +1,1 @@
+{"name":"scene3d_create","description":"Create an empty 3D Scene from scratch (not a scene inside one that already exists — use scene3d_create_scene for that). Share `world.webUrl`. Call it \"3D Scene\" to the user, never \"World\". @see guides_get('scene3d')","parameters":{"properties":{},"type":"object"}}

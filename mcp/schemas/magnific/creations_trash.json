@@ -1,0 +1,1 @@
+{"name":"creations_trash","description":"App-only: moves the user's own creations to the trash for an open Magnific app. Never call from chat.","parameters":{"properties":{"creationIdentifiers":{"description":"The user's own creations. Max 200.","items":{"type":"string"},"type":"array"}},"required":["creationIdentifiers"],"type":"object"}}

@@ -1,0 +1,1 @@
+{"name":"video_models_show","description":"Inline video model picker. User replies with slug.","parameters":{"properties":{"pendingPrompt":{"description":"Carried into picker for follow-up.","type":"string"}},"type":"object"}}

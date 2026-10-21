@@ -1,0 +1,1 @@
+{"name":"projects_share_leave","description":"Drop your own access to a project someone shared with you (personal, organization or group). Only the owner or an admin can give it back. Not for projects you own.","parameters":{"properties":{"reference":{"description":"Project reference from folders_list.","type":"string"}},"required":["reference"],"type":"object"}}

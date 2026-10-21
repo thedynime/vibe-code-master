@@ -1,0 +1,17 @@
+{
+  "name": "ai-coding-token-optimizer",
+  "displayName": "AI Coding Token Optimizer",
+  "version": "1.1.0",
+  "description": "Always-active rule ensuring all projects maintain slim entry points (<= 8KB), on-demand navigation maps (docs/map/), and minimal context rediscovery.",
+  "author": {
+    "name": "M Asif Rahman",
+    "url": "https://proskills.md/skills/coding/ai-coding-token-optimizer"
+  },
+  "keywords": [
+    "token optimization",
+    "context slimming",
+    "project mapping",
+    "efficiency",
+    "architecture"
+  ]
+}

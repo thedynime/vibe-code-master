@@ -1,0 +1,1 @@
+{"name":"folders_create","description":"Create folder/project. No `parentReference`: workspace root. `type` defaults: project at root, folder when nested.","parameters":{"properties":{"name":{"type":"string"},"parentReference":{"type":"string"},"type":{"description":"`project`|`folder`. Inferred from parentReference.","type":"string"}},"required":["name"],"type":"object"}}

@@ -1,0 +1,1 @@
+{"name":"folders_delete","description":"Move a folder and its files to trash.","parameters":{"properties":{"reference":{"type":"string"}},"required":["reference"],"type":"object"}}

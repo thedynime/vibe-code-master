@@ -1,0 +1,1 @@
+{"name":"list_bookmark_lists","description":"List the signed-in user's personal named bookmark lists (id, name, item count). These are curated collections that can hold components, themes and templates together. Free.","parameters":{"type":"object"}}

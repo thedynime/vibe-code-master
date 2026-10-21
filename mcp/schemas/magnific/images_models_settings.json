@@ -1,0 +1,1 @@
+{"name":"images_models_settings","description":"Settings for a model flagged with extraSettings or customModelId in images_models_list.","parameters":{"properties":{"mode":{"description":"Model slug from images_models_list.","type":"string"}},"required":["mode"],"type":"object"}}

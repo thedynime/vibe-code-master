@@ -1,0 +1,1 @@
+{"name":"spaces_create","description":"Create empty Space. Share `space.webUrl`; only call `spaces_show` when inline preview is requested. @see guides_get('spaces')","parameters":{"properties":{"description":{"description":"Max 1000 chars.","type":"string"},"name":{"type":"string"}},"required":["name"],"type":"object"}}

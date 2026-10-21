@@ -1,0 +1,1 @@
+{"name":"video_luts_list","description":"Catalog of colour-grading LUTs: numeric `id`, `name` and `category`. Read before `video_color_grade`. Free, no credits.","parameters":{"properties":{},"type":"object"}}

@@ -1,0 +1,1 @@
+{"name":"delete_theme","description":"Remove YOUR OWN theme from the 21st.dev community listing (unpublishes it). Owner-only. Soft - the row and any bookmarks/likes on it are preserved.","parameters":{"properties":{"id":{"description":"The theme id (uuid).","type":"string"}},"required":["id"],"type":"object"}}
