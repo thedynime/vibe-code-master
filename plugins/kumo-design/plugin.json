@@ -1,0 +1,19 @@
+{
+  "name": "kumo-design",
+  "displayName": "Cloudflare Kumo Design System",
+  "version": "1.0.0",
+  "description": "Always-active Cloudflare product design guidance and precision interface rules for dashboard UIs, responsive styling, and dialogs.",
+  "author": {
+    "name": "Cloudflare",
+    "url": "https://github.com/cloudflare/kumo"
+  },
+  "keywords": [
+    "design",
+    "ui",
+    "cloudflare",
+    "kumo",
+    "typography",
+    "dialogs",
+    "frontend"
+  ]
+}

@@ -63,3 +63,11 @@ These rules apply across all projects, workspaces, and prompts on this machine.
      - Every interactive element requires visible `:focus-visible`. Real facts only: never invent testimonials, metrics, or client logos.
      - Hero headline, 1-sentence value statement, and primary CTA must be visible at 1280x800 without scrolling.
      - Validate frontend code with `node /Users/jitkumarsaha/.gemini/config/skills/hallmark/scripts/sloplint.mjs <file>`.
+
+11. **Cloudflare Kumo Design Protocol (Always Active)**:
+   - The `kumo-design` skill and precision rules are **always active** on frontend UIs, dashboards, cards, dialogs, and component styling.
+   - **Key Standards**:
+     - Content text is strictly 14px (16px+ restricted to headings); sentence-case headings; no tracking alteration; no `font-bold` (use `font-semibold` / `font-medium`); inline code at ~0.9em.
+     - Never transition hover colors (immediate state changes only); no laggy transition delays.
+     - Never combine borders with drop shadows (use `ring ring-kumo-line`); corner radii must be concentric (`outer = inner + padding`).
+     - Never nest cards within cards; always use controlled `open={open}` for dialogs (never conditionally unmount `{open && <Dialog>}`).
