@@ -1,0 +1,1 @@
+{"name":"memory_doctor","description":"Audit ECC memory files for malformed content, duplicates, broken links, and symlinks.","parameters":{"additionalProperties":false,"properties":{"scopes":{"items":{"enum":["project","team","user"],"type":"string"},"maxItems":3,"type":"array","uniqueItems":true}},"type":"object"}}

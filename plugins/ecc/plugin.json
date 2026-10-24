@@ -1,0 +1,18 @@
+{
+  "name": "ecc",
+  "displayName": "Everything Claude Code / AI Coding OS (ECC)",
+  "version": "2.2.3",
+  "description": "Harness-native operating system for AI coding agents - 71+ specialized agents, 310+ skills, workflows, rules, and scripts.",
+  "author": {
+    "name": "Affaan Mustafa",
+    "url": "https://ecc.tools"
+  },
+  "keywords": [
+    "agents",
+    "subagents",
+    "skills",
+    "rules",
+    "workflows",
+    "ecc"
+  ]
+}

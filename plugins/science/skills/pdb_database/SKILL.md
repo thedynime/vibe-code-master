@@ -1,6 +1,11 @@
 ---
 name: pdb-database
-description: "Use when you want to search for or download experimentally-determined 3D structures for biomolecules (proteins, nucleic acids, bound ligands)."
+description: >
+  Use when you want to search for or download experimentally-determined 3D
+  structures for biomolecules (proteins, nucleic acids, bound ligands).
+  Supports searching by sequence similarity, structure similarity, chemical
+  and other attributes. Also use to get metadata about biomolecular structure
+  experiments.
 ---
 
 # RCSB Protein Data Bank skill

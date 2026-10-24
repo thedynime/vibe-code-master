@@ -1,6 +1,9 @@
 ---
 name: gtex-database
-description: "Use when you want to retrieve quantitative RNA expression data and variant eQTL information from the GTEx (Genotype-Tissue Expression) Project across 54 non-diseased..."
+description: >
+  Use when you want to retrieve quantitative RNA expression data and variant
+  eQTL information from the GTEx (Genotype-Tissue Expression) Project across 54
+  non-diseased tissue sites.
 ---
 
 # GTEx Database Integration

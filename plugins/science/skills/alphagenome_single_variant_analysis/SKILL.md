@@ -1,6 +1,14 @@
 ---
 name: alphagenome-single-variant-analysis
-description: "Analyzes genetic variant effects on gene expression (RNA-seq), chromatin accessibility (DNASE), histone marks (ChIP), and transcription factors using the AlphaGenome API."
+description: >
+  Analyzes genetic variant effects on gene expression (RNA-seq), chromatin
+  accessibility (DNASE), histone marks (ChIP), and transcription factors
+  using the AlphaGenome API. Use when the user asks about non-coding variant effects,
+  pathogenicity, clinical significance, disease associations, functional
+  effects, gene expression changes, splicing disruption, or regulatory effects
+  in promoters and enhancers. Also use for resolving biological terms to
+  tissue/cell-type ontologies (UBERON/CL) or analyzing variants in
+  chr:pos:ref>alt format.
 ---
 
 # Variant Analysis using AlphaGenome

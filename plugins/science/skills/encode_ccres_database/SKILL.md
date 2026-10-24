@@ -1,6 +1,10 @@
 ---
 name: encode-ccres-database
-description: "Query the ENCODE Registry of cis-Regulatory Elements (cCREs) via the SCREEN GraphQL API, or make custom queries to the ENCODE Portal REST API for experiments and files..."
+description: >
+    Query the ENCODE Registry of cis-Regulatory Elements (cCREs) via the SCREEN
+    GraphQL API, or make custom queries to the ENCODE Portal REST API for
+    experiments and files (ChIP-seq peaks, etc.). Use when you want to query
+    regulatory annotations or raw experimental data across human cell types.
 ---
 
 # ENCODE Database Skill

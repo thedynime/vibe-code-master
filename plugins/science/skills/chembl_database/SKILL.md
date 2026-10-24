@@ -1,6 +1,9 @@
 ---
 name: chembl-database
-description: "Query the ChEMBL database for bioactive molecules, drug targets, bioactivity data, approved drugs, and chemical structures."
+description: >
+  Query the ChEMBL database for bioactive molecules, drug targets, bioactivity
+  data, approved drugs, and chemical structures. Use when the user asks about
+  compounds, targets, IC50/Ki values, drug mechanisms, or structure searches.
 ---
 
 # ChEMBL Database Query

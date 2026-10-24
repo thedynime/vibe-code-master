@@ -1,0 +1,1 @@
+{"name":"memory_read","description":"Read one ECC memory and its derived backlinks by stable memory ID.","parameters":{"additionalProperties":false,"properties":{"id":{"pattern":"^mem_[a-z0-9][a-z0-9_-]{2,127}$","type":"string"},"scope":{"enum":["project","team","user"],"type":"string"}},"required":["id"],"type":"object"}}

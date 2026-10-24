@@ -1,0 +1,19 @@
+{
+  "name": "hallmark",
+  "displayName": "Hallmark Anti-AI-Slop Design Suite",
+  "version": "2.0.0",
+  "description": "Always-active design skill and hard floor rules for websites and frontend UIs that refuse to look AI-generated.",
+  "author": {
+    "name": "Nutlope",
+    "url": "https://github.com/nutlope/hallmark"
+  },
+  "keywords": [
+    "design",
+    "ui",
+    "anti-ai-slop",
+    "landing-page",
+    "themes",
+    "typography",
+    "frontend"
+  ]
+}

@@ -46,9 +46,20 @@ These rules apply across all projects, workspaces, and prompts on this machine.
      - For `.webp`, `.heic`, `.avif`, etc.: Automatically run `/Users/jitkumarsaha/.gemini/config/scripts/asset_handler.py <path>` to inspect dimensions, metadata, and convert to high-res PNG for visual analysis.
    - **Batch Directory Scanning**: When a user points to a folder or project asset directory (e.g., `public/`, `assets/`, `images/`), automatically scan and batch-process all contained assets.
 
-8. **Universal Media & Asset Protocol (Always Active)**:
-   - **First-Class Media Handling**: Never reject or claim inability to handle local files like `.svg`, `.webp`, `.heic`, `.avif`, `.ico`, `.tiff`, or `.psd`.
-   - **Automatic Inspection & Conversion**: When a user mentions or provides any media path, folder, or asset name:
-     - For `.svg`: Read the raw vector XML directly or execute `/Users/jitkumarsaha/.gemini/config/scripts/asset_handler.py <path>` to generate a high-res visual preview.
-     - For `.webp`, `.heic`, `.avif`, etc.: Automatically run `/Users/jitkumarsaha/.gemini/config/scripts/asset_handler.py <path>` to inspect dimensions, metadata, and convert to high-res PNG for visual analysis.
-   - **Batch Directory Scanning**: When a user points to a folder or project asset directory (e.g., `public/`, `assets/`, `images/`), automatically scan and batch-process all contained assets.
+9. **Graphify Knowledge Graph & AST Token Optimization Protocol (Always Active)**:
+   - For codebase navigation, dependency mapping, and architecture questions, check if `graphify-out/graph.json` exists.
+   - When present, first query the graph using `graphify query "<question>"`, `graphify path "<A>" "<B>"`, or `graphify explain "<concept>"` before running wide grep/glob searches or loading entire files into context.
+   - If `graphify-out/wiki/index.md` exists, navigate the conceptual wiki instead of scanning raw source trees.
+   - Read `graphify-out/GRAPH_REPORT.md` only for broad high-level architecture overviews.
+   - After editing or adding code files, execute `graphify update .` to keep AST extraction synchronized without LLM API overhead.
+
+10. **Hallmark Design & Anti-AI-Slop Protocol (Always Active)**:
+   - The `hallmark` skill and design rules are **always active** on any prompt building, editing, redesigning, or evaluating frontend web interfaces, landing pages, and components.
+   - **The Floor is Absolute**:
+     - All colors and typography must route through tokens declared at `:root` (or theme block). No raw literal hex or font-family past tokens.
+     - Never `transition: all`; never animate `width`, `height`, `top`, or `left`. Always include `prefers-reduced-motion` fallbacks.
+     - Never put one italic word inside a roman heading; no tracked-capital labels, no eyebrows, no purple-to-blue gradients, no nested cards.
+     - Enforce `overflow-x: clip` on `html` and `body` (never `hidden`, never `100vw`).
+     - Every interactive element requires visible `:focus-visible`. Real facts only: never invent testimonials, metrics, or client logos.
+     - Hero headline, 1-sentence value statement, and primary CTA must be visible at 1280x800 without scrolling.
+     - Validate frontend code with `node /Users/jitkumarsaha/.gemini/config/skills/hallmark/scripts/sloplint.mjs <file>`.

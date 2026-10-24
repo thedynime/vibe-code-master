@@ -1,6 +1,11 @@
 ---
 name: quickgo-database
-description: "Query the QuickGO and Evidence & Conclusion Ontology (ECO) REST API."
+description: >
+  Query the QuickGO and Evidence & Conclusion Ontology (ECO) REST API. Use this
+  when you need to map genes to biological processes, molecular functions, or
+  cellular components, find genes associated with a specific pathway/GO term, or
+  explore the Gene Ontology hierarchy. Do not use for querying drug targets (use
+  OpenTargets) or mechanistic signaling pathway diagrams (use KEGG).
 ---
 
 # QuickGO Database Skill

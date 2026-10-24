@@ -53,6 +53,21 @@
             "headers": {
                 "x-api-key": "${API_KEY_21ST}"
             }
+        },
+        "ecc-memory-vault": {
+            "command": "node",
+            "args": [
+                "/Users/jitkumarsaha/.gemini/antigravity/scratch/ECC/scripts/memory-mcp.mjs"
+            ],
+            "env": {
+                "ECC_MEMORY_HARNESS": "antigravity"
+            }
+        },
+        "graphify": {
+            "command": "graphify-mcp",
+            "args": [
+                "graphify-out/graph.json"
+            ]
         }
     }
 }

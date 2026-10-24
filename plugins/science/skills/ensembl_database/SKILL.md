@@ -1,6 +1,11 @@
 ---
 name: ensembl-database
-description: "Query the Ensembl database to resolve gene, transcript, and protein IDs, fetch genomic or protein sequences, retrieve gene structures (exons), and get variant consequence..."
+description: >
+  Query the Ensembl database to resolve gene, transcript, and protein IDs,
+  fetch genomic or protein sequences, retrieve gene structures (exons), and
+  get variant consequence and effect predictions (VEP). Use this skill as a
+  primary ID translator, genomic sequence database and variant effect prediction
+  tool.
 ---
 
 # Ensembl Database: ID Mapping and Genomic Features

@@ -1,6 +1,11 @@
 ---
 name: biomolecular-structure-viewer
-description: "Interactive 3D biomolecular structure viewer via Mol*."
+description: >
+  Interactive 3D biomolecular structure viewer via Mol*. Renders 3D molecular structures
+  from local workspace files (.cif, .mmcif, .pdb) or conversation artifacts,
+  and manages user 3D annotations and highlighted residues.
+  Use when the user asks to visualise a protein or nucleic acid, display a 3D structure,
+  or asks about 3D biomolecular structure annotations and highlighted residues.
 ---
 
 # Biomolecular Structure Viewer
